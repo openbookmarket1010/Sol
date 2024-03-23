@@ -1,6 +1,6 @@
 [build]
   command = "npm install && npm run build"
-  publish = "dist"
+  publish = "dist" # Agar aapka compiled code kisi specific directory mein hai to yaha specify karein
 
 [context.production.environment]
   NODE_VERSION = "14" # Optional, agar specific Node.js version chahiye
@@ -12,4 +12,3 @@
 [context.deploy-preview]
   command = "npm run build"
   environment = { NODE_ENV = "production" }
-
