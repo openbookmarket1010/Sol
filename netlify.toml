@@ -1,0 +1,4 @@
+[build]
+  command = "npm run build"
+  publish = "dist" # Agar aapka compiled code kisi specific directory mein hai to yaha specify karein
+  
