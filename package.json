@@ -1,3 +1,16 @@
-"scripts": {
-  "build": "tsc"
+{
+  "name": "your-project-name",
+  "version": "1.0.0",
+  "description": "Description of your project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js", // Change index.js to your entry file
+    "build": "tsc" // Change this to your TypeScript build command
+  },
+  "keywords": [],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "@solana/web3.js": "^1.7.6" // Add Solana SDK as a dependency with the appropriate version
+  }
 }
